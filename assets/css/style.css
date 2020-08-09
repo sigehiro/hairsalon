@@ -1,0 +1,95 @@
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+  }body{
+    font-size: 62.5%;
+}
+
+
+h1{
+    color: aqua;
+    
+}
+
+/* footerのCSSスタートーーーーーーーーーーーーーーーーーーーーーーー完成 */
+/*  todo--------後は、borderとフォントを直す */
+footer{
+    padding: 0 3rem 2rem 3rem;
+
+}
+.ftr_inner h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+.ftr_inner{
+    box-sizing: border-box;
+    padding: 2rem 2rem 4rem;
+    background-color: #f8f8f8;
+}
+.site-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ftr_inner .site-info_ttl{
+    position: relative;
+    /* 下二つで下線の調整 */
+    padding-bottom: 1.5em;
+    margin-bottom: 1em;
+}
+.ftr_inner .site-info_ttl:after{
+    display: block;
+    content: '';
+    width: 2em;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+}
+.m-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.m-row dt{
+    margin-right: 1em;
+}
+footer ul{
+    list-style: none;
+    padding-left: 0px;
+}
+footer li a{
+    color: black;
+}
+.follow dt, .share-ftr dt{
+    padding-bottom: 0.25rem;
+}
+.follow a, .share-ftr a{
+    color: black;
+}
+
+footer .copyright{
+    position: fixed;
+    top: 50%;
+    left: -3rem;
+    transform: rotate(-90deg) translateY(-50%);
+}
+/* ーーーーーーーーーーーーーーーーーーーーーーーfooterのCSS終了 */
+
+/* PC型 768px~1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    
+   
+}
+
+/* タブレット型 479px~767px*/
+@media screen and (min-width: 479px) and (max-width: 767px){
+
+}
+
+/* スマホ mobile型 ~478px*/
+@media screen and (max-width: 478px){
+
+}
