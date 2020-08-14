@@ -7,6 +7,7 @@
 		<!--<link rel="stylesheet" href="assets/css/customstyle.css">-->
 		<link rel="stylesheet" href="assets/css/nomalize.css">
 		<link rel="stylesheet" href="assets/css/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 		<title>TOP|Alexsa</title>
 	</head>
 	<body>
@@ -75,44 +76,70 @@
 			<!-- <div class="container"> -->
 				<p><img src="ここにスライド画像" alt=""></p>
 				<secton class="main">
-				<div class="information">
-					<header class="info_hdr col-md-4">
-						<h4>Information</h4>
-					</header>
-					<div class="info-list col-md-8">
-						<dl class="info-list-unit">
-							<dt><time datetime="2020/08/01">August.1st, 2020</time></dt>
-							<dd>8月の定休日</dd>
-						</dl>
-						<dl class="info-list-unit">
-							<dt><time datetime="2020/07/07">july.7st, 2020</time></dt>
-							<dd>7月の定休日</dd>
-						</dl>
-						<dl class="info-list-unit">
-							<dt><time datetime="2020/06/27">june.27st, 2020</time></dt>
-							<dd>6月の定休日</dd>
-						</dl>
+					<div class="information">
+						<div class="row">
+							<header class="info_hdr col-md-4">
+								<h4>Information</h4>
+							</header>
+							<div class="info-list col-md-8">
+								<dl class="info-list-unit">
+									<dt><time datetime="2020/08/01">August.1st, 2020</time></dt>
+									<dd>8月の定休日</dd>
+								</dl>
+								<dl class="info-list-unit">
+									<dt><time datetime="2020/07/07">july.7st, 2020</time></dt>
+									<dd>7月の定休日</dd>
+								</dl>
+								<dl class="info-list-unit">
+									<dt><time datetime="2020/06/27">june.27st, 2020</time></dt>
+									<dd>6月の定休日</dd>
+								</dl>
+							</div>
+						</div>
 					</div>
-				</div>
-				
-				<div id="product">
-					<img src="写真２、３枚" alt="">
-					<h4>Product</h4>
-					<p>テキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプル</p>
-					<p class="readmore"><a href="product.html"><strong>ReadMore</strong></a></p>
-				</div>
-				
-				<div class="map">
-					<h4>Access</h4>
-					<p>googlemap</p>
-				</div>
-				
-				<div class="recruit">
-					<h4>Recruit</h4>
-					<p>テキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプル</p>
-					<p class="readmore"><a href="contact.html"><strong>ReadMore</strong></a></p>
-					<img src="右に写真" alt="">
-				</div>
+					
+					<div id="product">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="photobox">
+									<div class="backphoto"><img src="assets/images/product3.jpeg" alt="背景"></div>
+									<div class="midlephoto"><img src="assets/images/product1.jpeg" alt="中央"></div>
+									<div class="frontphoto"><img src="assets/images/product2.jpeg" alt="前面"></div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="pho-cont">
+									<h4>Product</h4>
+									<p>テキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプル</p>
+									<p class="readmore"><a href="product.html"><strong>ReadMore</strong></a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- googlemap 500px前後でフル画面にならない、どのサイズでもフル画面にする。 -->
+					<div class="map">
+						<h4>Access</h4>
+						<p>12F  2QUAD  Building,Cardinal  Rosales  Ave.<br>Cebu Business Park.</p>
+						<div class="row">
+							<div class="embed-responsive embed-responsive-21by9">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.1697405444725!2d123.90398782393602!3d10.328297394719586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a9992250261bf5%3A0xf266ca55a3a92136!2sCasa%20Verde!5e0!3m2!1sja!2sjp!4v1597393163106!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+							</div>
+						</div>
+					</div>
+						
+					<div class="recruit">
+						<div class="row">
+							<div class="col-md-6">
+								<h4>Recruit</h4>
+									<p>テキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプル</p>
+									<p class="readmore"><a href="contact.html"><strong>ReadMore</strong></a></p>
+							</div>
+							<div class="col-md-6">
+								<img src="assets/images/recruiy.webp" alt="recruit写真">
+							</div>
+						</div>
+					</div>
 				</secton>
 			</div>
 			

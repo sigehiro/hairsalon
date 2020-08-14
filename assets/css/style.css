@@ -2,7 +2,9 @@
 body{
     font-size: 62.5%;
     font-family: "游ゴシック", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "Yu Gothic", sans-serif;
-      
+}
+h4,p{
+    font-family: 'Lato', sans-serif;
 }
 
 .hdr-upper{
@@ -33,14 +35,15 @@ h1{
 /* mainコンテンツのCSSスタートーーーーーーーーーーーーーーーーーーーーーーー */
 
 .information{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 100px;
+    /* display: flex;
+    justify-content: space-around; */
+    margin-top: 20rem;
     /* 上との調整で仮にマージンをかけている */
 }
 .info_hdr h4{
     font-size: 2rem;
-    text-align: right;
+    text-align: center;
+    margin-bottom: 2.5rem;
 }
 /* .info-list{
     margin-left: 30px;
@@ -74,7 +77,46 @@ dl.info-list-unit{
     margin-left: 60px;
 }
 
+/* product */
+#product{
+    display: flex;
+    margin-top: 20rem;
+}
+.photobox{
+    position: relative;
+}
+.photobox img{
+    max-width: 600px;
+    width: 100%;
+}
 
+.readmore{
+    text-align: right;
+}
+
+/* map */
+.map,.recruit{
+    margin-top: 20rem;
+    text-align: center;
+}
+.map h4{
+    margin: 3rem;
+    font-size: 2rem;
+}
+.map p,.recruit p{
+    font-size: 1.4em;
+    margin-bottom: 2.5rem;
+}
+
+/* recruit */
+.recruit img{
+    max-width: 600px;
+    width: 100%;
+}
+.recruit h4{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
 
 
 
@@ -82,6 +124,8 @@ dl.info-list-unit{
 /*  todo--------後は、borderとフォントを直す */
 footer{
     padding: 0 3rem 2rem 3rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
 
 }
 .ftr_inner h2{
