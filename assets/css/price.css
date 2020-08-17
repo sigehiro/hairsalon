@@ -1,0 +1,106 @@
+
+body{
+    font-size: 62.5%;
+    font-family: "游ゴシック", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "Yu Gothic", sans-serif;
+}
+h4,p{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.st-contents{
+    margin-top: 200px;
+}
+
+.price--hair{
+    background-image: url(../images/interior5.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    padding-top: 30%;
+
+}
+
+.m-inner {
+    margin: 0 auto;
+    position: relative;
+    z-index: 100;
+    width: 80%;
+}
+.price__inner{
+    background-color: #fff;
+}
+
+h1.m-ttl{
+    padding-top: 5em;
+}
+.m-note{
+    padding-bottom: 3em;
+}
+
+/* footerのCSSスタートーーーーーーーーーーーーーーーーーーーーーーー完成 */
+/*  todo--------後は、borderとフォントを直す */
+footer{
+    padding: 0 3rem 2rem 3rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+
+}
+.ftr_inner h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+.ftr_inner{
+    box-sizing: border-box;
+    padding: 2rem 2rem 4rem;
+    background-color: #f8f8f8;
+}
+.site-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ftr_inner .site-info_ttl{
+    position: relative;
+    /* 下二つで下線の調整 */
+    padding-bottom: 1.5em;
+    margin-bottom: 1em;
+}
+.ftr_inner .site-info_ttl:after{
+    display: block;
+    content: '';
+    width: 2em;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+}
+.m-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.m-row dt{
+    margin-right: 1em;
+}
+footer ul{
+    list-style: none;
+    padding-left: 0px;
+}
+footer li a{
+    color: black;
+}
+.follow dt, .share-ftr dt{
+    padding-bottom: 0.25rem;
+}
+.follow a, .share-ftr a{
+    color: black;
+}
+
+footer .copyright{
+    position: fixed;
+    top: 50%;
+    left: -3rem;
+    transform: rotate(-90deg) translateY(-50%);
+}
