@@ -95,15 +95,15 @@ dl.info-list-unit{
 }
 
 /* map */
-.map,.recruit{
+#map,.recruit{
     margin-top: 20rem;
     text-align: center;
 }
-.map h4{
+#map h4{
     margin: 3rem;
     font-size: 2rem;
 }
-.map p,.recruit p{
+#map p,.recruit p{
     font-size: 1.4em;
     margin-bottom: 2.5rem;
 }

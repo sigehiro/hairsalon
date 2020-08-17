@@ -6,52 +6,116 @@ h4,p{
     font-family: 'Lato', sans-serif;
 }
 
-h2>img{
-    max-width: 100%;
-    width: 960px;
+
+/* ここから */
+
+.contact-con{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
-h2{
+
+table {
+    border-collapse: collapse;
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 60px auto 40px;
+}
+
+input[type="submit"],input[type="text"],select,textarea,button {
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+input.btn{
+    width: 200px;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px red;
+}
+
+input.btn:hover {
+    background-color: #ffecea;
+  }
+
+input[type="text"],textarea {
+    background: #f8f8f8;
+    display: block;
+    font-size: 16px;
+    padding: 12px 15px;
+    width: 480px;
+    transition: 0.8s;
+    border-radius: 0;
+}
+
+input[type="text"]:focus,textarea:focus {
+    background: #e9f5fb;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+textarea[name="content"] {
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+}
+
+input::placeholder,textarea::placeholder {
+    color: #ccc;
+}
+
+form{
     text-align: center;
 }
-h3{
-    margin-bottom: 1rem;
-}
-.columCont{
-    display: flex;
-    flex-wrap: wrap;
-}
-.colum{
-    width: 25%;
-}
-dl{
-    border-top: 1px solid gray;
-    /* dl-colum-lastの上の線が繋がってる問題 */
-}
-dt{
-    align-items: center;
-}
-dd img{
-    max-width: 250px;
+.form-table {
     width: 100%;
-    height: 153px;
-    margin-bottom:15px;
-}
-.columCont-last{
-    width: 50%;
-}
-.colum-last{
-    width: 50%;
-    float: left;
 }
 
-.dl-colum-last{
-    padding-left: 15px;
-    padding-right: 15px;
+.form-table th,.form-table td {
+    border: 1px solid #d7d7d7;
+    font-size: 2rem;
+    padding: 20px;
 }
 
-.clearfix{
-    clear: both;
+.form-table th {
+    background: #ffecea;
+    padding-left: 50px;
+    position: relative;
+    text-align: left;
+    width: 350px;
 }
+
+/* .btn{
+    border-bottom: solid 10px red;
+    
+} */
+
+
+
+
+
+/* レスポンシブル用 */
+/* .form-table th,
+.form-table td {
+  display: block;
+  width: 100%;
+  border-bottom: none;
+} */
+ 
+
+
+
+
+
+
+
+
+
 
 /* footerのCSSスタートーーーーーーーーーーーーーーーーーーーーーーー完成 */
 /*  todo--------後は、borderとフォントを直す */
