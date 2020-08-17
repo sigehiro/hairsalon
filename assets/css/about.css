@@ -1,0 +1,50 @@
+body{
+    font-size: 62.5%;
+    font-family: "游ゴシック", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "Yu Gothic", sans-serif;
+}
+h4,p{
+    font-family: 'Lato', sans-serif;
+}
+
+h2{
+    padding-left: 8px;
+    border-left: 5px solid #444;
+    padding-left: 15px;
+}
+h3{
+    border-bottom: 2px solid  gray;
+}
+
+.c-info img{
+    max-width: 500px;
+    width: 100%;
+}
+.admister img{
+    max-width: 200px;
+    width: 100%;
+}
+.philosophy{
+    margin-bottom: 100px;
+}
+.ad-column{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* dlをtableの様に揃えるやり方。dt,dd共にwidthを揃えるところがポイント */
+.dl_table{
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+dt,dd{
+    display: flex;
+    flex-direction: column;
+}
+
+dt{
+    width: 20%;
+}
+dd{
+    width: 80%;
+}
