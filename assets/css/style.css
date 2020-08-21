@@ -8,13 +8,14 @@ h4,p{
 }
 
 .hdr-upper{
-    padding: 2.5em 0 2em 0;
+    padding: 2.5em 0 1em 0;
     font-size: 2.8em;
     text-align: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 h1{
     margin: 0;
+    font-size: 1.8rem;
 }
 .hdr-upper a {
     color: black;
@@ -29,7 +30,51 @@ h1{
     margin: 0;
 
 }
+.nav-wrap{
+    max-width: 1024px;
+    width: auto;
+}
+.gnav{
+    display: flex;
+    position: relative;
+    z-index: 100;
+}
 
+.reserved{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+ul.navbar-low{
+    display: flex;
+    padding-left: 0px;
+}
+li.nav-item{
+    padding: 1.5rem 4rem 0.5rem 4rem;
+    font-size: 1.4em;
+}
+
+a.nav-link{
+    padding: 0;
+    color: black;
+}
+.btn_inner{
+    border-width: 1px;
+    border-style: solid;
+    padding: 1em 1em;
+    font-size: 1.4em;
+    border-color: black;
+    text-decoration: none;
+    /* これが効かない下線が入ってしまう。 */
+}
+.reserved span{
+    line-height: 1;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0.5em 1em;
+    border-color: black;
+    color: black;
+}
 
 
 /* mainコンテンツのCSSスタートーーーーーーーーーーーーーーーーーーーーーーー */

@@ -23,32 +23,40 @@ h3{
 .colum{
     width: 25%;
 }
-dl{
+dl.columContdl,dl.cl-first,dl.cl-second{
+	padding-top: 2rem;
     border-top: 1px solid gray;
     /* dl-colum-lastの上の線が繋がってる問題 */
 }
-dt{
+dt.columdt{
     align-items: center;
+/*	dl,ddの位置調整*/
+	position: absolute;
+	bottom: 80px;
 }
 dd img{
     max-width: 250px;
     width: 100%;
     height: 153px;
     margin-bottom:15px;
+		positionn:relative;
 }
+dd:nth-of-type(2n){
+	padding-top: 2em;
+}
+
+/*ここの幅がネック*/
 .columCont-last{
     width: 50%;
 }
 .colum-last{
-    width: 50%;
-    float: left;
+/*    width: 50%;*/
+/*    float: left;*/
 }
-
-.dl-colum-last{
-    padding-left: 15px;
-    padding-right: 15px;
+.columCont-last{
+	display: flex;
+/*	flex-wrap: wrap;*/
 }
-
 .clearfix{
     clear: both;
 }
