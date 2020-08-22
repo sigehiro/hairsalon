@@ -9,63 +9,69 @@
 		<title>PRICE|Alexsa</title>
 	</head>
 	<body>
-		<header>
-			<nav class="navbar navbar-expand-lg navbar-light bg-white absolute-top">
-				<div class="container">
+		<div class="container">
+			<header>
+				<div class="hdr-upper">
 					<h1><a href="index.html">Alexsa</a></h1>
-					<div class="hdr-bar_middle">
-						<p class="hdr-bar">HAIR</p>
-					</div>
-					
-					<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="ナビゲーションメニューボタン">
-					<span class="navbar-toggler-icon"></span>
-				</button> -->
-					
-					<!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
-					
-					<div class="hdr-bar_lower">
-						<div class="nav-wrap">
-							<nav class="gnav">
-								<ul class="navbar-low"><!-- mr-auto">-->
+				</div>
+				<div class="hdr-middle">
+					<p class="hdr-bar-middle">HAIR</p>
+				</div>
+				<!-- ナビゲーションータブレットとスマホ -->
+
+				<nav class="navbar navbar-expand-md navbar-light bg-white absolute-top">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="ナビゲーションメニューボタン">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+<!-- navがレスポンシブルにならない -->
+					<!-- 上のbuttonと連携している -->
+					<div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+					<!--<div class="hdr-bar_lower">-->
+							<div class="nav-wrap">
+								<ul class="navbar-low">
 									<li class="nav-item">
-									<a class="nav-link" href="about.html">About</a>
+										<a class="nav-link" href="about.html">About</a>
 									</li>
 									<li class="nav-item">
-									<a class="nav-link" href="price.html">Price</a>
+										<a class="nav-link" href="price.html">Price</a>
 									</li>
 									<li class="nav-item">
-									<a class="nav-link" href="product.html">Product</a>
+										<a class="nav-link" href="product.html">Product</a>
 									</li>
 									<li class="nav-item">
-									<a class="nav-link" href="index.html#map">Access</a>
+										<a class="nav-link" href="#map">Access</a>
 									</li>
+
 									<!-- <li class="nav-item active">
-									<a class="nav-link" href="reserved.html">Reserved</a>
+										<a class="nav-link" href="reserved.html">Reserved</a>
 									</li> -->
-									<li class="rwd-not-pc">
-									<a class="nav-link" href="contact.html"><span>Contact<small>（お問い合わせ）</small></span></a>
-										</li>
-									</ul>
-									<!-- 擬似要素使用 -->
-									<p class="reserved">
-										<a href="reserved.html" class="btn_inner ">
-											<span>reserved</span>
-										</a>
-									</p>
-								</nav>
-								
-								<ul class="utility">
-									<li class="share-hdr"><a href="contact.html">✉️</a></li>
-									<li class="share"><a href="#" target="_blank" rel="noopener noreferrer">facebook</a></li>
-									<li class="share"><a href="#" target="_blank" rel="noopener noreferrer">twitter</a></li>
-									<li class="share"><a href="#" target="_blank" rel="noopener noreferrer">instagram</a></li>
+
+									<!-- <li class="rwd-not-pc">
+										<a class="nav-link" href="contact.html"><span>Contact<small>（お問い合わせ）</small></span></a>
+									</li> -->
 								</ul>
+							<!-- 擬似要素使用 -->
+								<p class="reserved">
+									<a href="reserved.html" class="btn_inner ">
+										<span>reserved</span>
+									</a>
+								</p>
 							</div>
-						</div>
-						<!-- </div> -->
+
+
+
+						<!--<ul class="utility">
+								<li class="share-hdr"><a href="contact.html">✉️</a></li>
+								<li class="share"><a href="#" target="_blank" rel="noopener noreferrer">facebook</a></li>
+								<li class="share"><a href="#" target="_blank" rel="noopener noreferrer">twitter</a></li>
+								<li class="share"><a href="#" target="_blank" rel="noopener noreferrer">instagram</a></li>
+							</ul>-->
+					<!--</div>hdr-bar_lower-->
+
 					</div>
 				</nav>
 			</header>
+
 
 			<!--	main contents-->
 			<main class="st-contents">
@@ -75,9 +81,9 @@
 							<div class="price__inner">
 								<div class="m-inner m-inner--minimum">
 									<div class="cp-hdr text-center">
-										<h1 class="m-ttl"><span>Price</span></h1>
-										<div class="m-note">
-											<p class="note__list">価格は税込価格です</p>
+										<h1 class="m-ttl"><span class="priceCont">Price</span></h1>
+										<div class="m-note clearfix">
+											<p class="note__list text-right">❇︎ 価格は税込価格です</p>
 										</div>
 									</div>
 									<div class="menu m-row ">
@@ -161,7 +167,7 @@
 											</section>
 											<section class="menu__unit">
 												<div class="menu__unit__hdr">
-													<h3 class="menu__unit__ttl">縮毛矯正</h3>
+													<h2 class="menu__unit__ttl">縮毛矯正</h2>
 												</div>
 												<ul>
 													<li class="menu__unit__list">

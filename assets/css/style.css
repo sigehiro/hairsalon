@@ -3,7 +3,15 @@ body{
     font-size: 62.5%;
     font-family: "游ゴシック", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "Yu Gothic", sans-serif;
 }
-h4,p{
+h2,h3,h4,h5,h6,p{
+    font-family: 'Lato', sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.min{
     font-family: 'Lato', sans-serif;
 }
 
@@ -76,6 +84,33 @@ a.nav-link{
     color: black;
 }
 
+/* carusel start*/
+.carousel-inner{
+    height: 500px;
+}
+
+.mv_inner{
+    position: relative;
+
+}
+.change_inner{
+    padding: 1vw 2.5vw;
+    left: 2vw;
+    bottom: 2vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    z-index: 100;
+}
+/* .change__unit{
+    margin-bottom: 0;
+} */
+.charge__unit dt{
+    padding-top: 0.3rem;
+}
+/* -----------------------------ここまでがheader部分 finish-*/
+
+
 
 /* mainコンテンツのCSSスタートーーーーーーーーーーーーーーーーーーーーーーー */
 
@@ -95,6 +130,7 @@ a.nav-link{
 } */
 dl{
     margin-top: 1em;
+    margin-bottom: 0;
 }
 dt{
     font-weight: 100;
@@ -230,6 +266,7 @@ footer .copyright{
     top: 50%;
     left: -3rem;
     transform: rotate(-90deg) translateY(-50%);
+    font-size: 1rem;
 }
 /* ーーーーーーーーーーーーーーーーーーーーーーーfooterのCSS終了 */
 

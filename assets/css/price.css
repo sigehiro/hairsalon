@@ -3,21 +3,25 @@ body{
     font-size: 62.5%;
     font-family: "游ゴシック", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "Yu Gothic", sans-serif;
 }
-h4,p{
+h2,h3,h4,h5,h6,p{
     font-family: 'Lato', sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 
 .st-contents{
-    margin-top: 200px;
+    margin-top: 2rem;
 }
 
 .price--hair{
-    background-image: url(../images/interior5.jpeg);
+    background-image: url(../images/interior5-1.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
-    padding-top: 30%;
+    padding-top: 22%;
 
 }
 
@@ -29,14 +33,137 @@ h4,p{
 }
 .price__inner{
     background-color: #fff;
+    border: 1px solid #cdc9c9;
+    padding-bottom: 4rem;
+
 }
 
 h1.m-ttl{
-    padding-top: 5em;
+    padding-top: 3em;
 }
 .m-note{
     padding-bottom: 3em;
 }
+.priceCont{
+    border-bottom: 1px solid;
+    padding-bottom: 1rem;
+}
+h2.menu__unit__ttl{
+    margin-bottom: 1.3rem;
+    font-size: 1.2rem;
+}
+
+section.menu__unit{
+    padding: 0.5em;
+    border-bottom: 1px solid;
+    margin: 2em 1em 3em 1em;
+}
+section ul{
+    padding-left: 0px;
+}
+.menu__unit__list dl{
+    margin-bottom: 0.5rem;
+}
+dt{
+    color: gray;
+}
+
+/* header start -----------------------------------*/
+.hdr-upper{
+    padding: 2.5em 0 1em 0;
+    font-size: 2.8em;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+h1{
+    margin: 0;
+    font-size: 1.8rem;
+}
+.hdr-upper a {
+    color: black;
+}
+.hdr-middle{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 1em 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.hdr-bar-middle{
+    margin: 0;
+
+}
+.nav-wrap{
+    max-width: 1024px;
+    width: auto;
+}
+.gnav{
+    display: flex;
+    position: relative;
+    z-index: 100;
+}
+
+.reserved{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+ul.navbar-low{
+    display: flex;
+    padding-left: 0px;
+}
+li.nav-item{
+    padding: 1.5rem 4rem 0.5rem 4rem;
+    font-size: 1.4em;
+}
+
+a.nav-link{
+    padding: 0;
+    color: black;
+}
+.btn_inner{
+    border-width: 1px;
+    border-style: solid;
+    padding: 1em 1em;
+    font-size: 1.4em;
+    border-color: black;
+    text-decoration: none;
+    /* これが効かない下線が入ってしまう。 */
+}
+.reserved span{
+    line-height: 1;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0.5em 1em;
+    border-color: black;
+    color: black;
+}
+
+/* carusel start*/
+.carousel-inner{
+    height: 500px;
+}
+
+.mv_inner{
+    position: relative;
+
+}
+.change_inner{
+    padding: 1vw 2.5vw;
+    left: 2vw;
+    bottom: 2vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    z-index: 100;
+}
+/* .change__unit{
+    margin-bottom: 0;
+} */
+.charge__unit dt{
+    padding-top: 0.3rem;
+}
+
+/* -----------------------------------header finish */
 
 /* footerのCSSスタートーーーーーーーーーーーーーーーーーーーーーーー完成 */
 /*  todo--------後は、borderとフォントを直す */

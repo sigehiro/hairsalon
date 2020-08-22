@@ -2,19 +2,125 @@ body{
     font-size: 62.5%;
     font-family: "游ゴシック", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "Yu Gothic", sans-serif;
 }
-h4,p{
+h2,h3,h4,h5,h6,p{
+    font-family: 'Lato', sans-serif;
+}
+.min{
     font-family: 'Lato', sans-serif;
 }
 
-h2{
+a:hover{
+    text-decoration: none;
+}
+
+
+/* header部分index.htmlからのコピー */
+
+.hdr-upper{
+    padding: 2.5em 0 1em 0;
+    font-size: 2.8em;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+h1{
+    margin: 0;
+    font-size: 1.8rem;
+}
+.hdr-upper a {
+    color: black;
+}
+.hdr-middle{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 1em 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.hdr-bar-middle{
+    margin: 0;
+
+}
+.nav-wrap{
+    max-width: 1024px;
+    width: auto;
+}
+.gnav{
+    display: flex;
+    position: relative;
+    z-index: 100;
+}
+
+.reserved{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+ul.navbar-low{
+    display: flex;
+    padding-left: 0px;
+}
+li.nav-item{
+    padding: 1.5rem 4rem 0.5rem 4rem;
+    font-size: 1.4em;
+}
+
+a.nav-link{
+    padding: 0;
+    color: black;
+}
+.btn_inner{
+    border-width: 1px;
+    border-style: solid;
+    padding: 1em 1em;
+    font-size: 1.4em;
+    border-color: black;
+    text-decoration: none;
+    /* これが効かない下線が入ってしまう。 */
+}
+.reserved span{
+    line-height: 1;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0.5em 1em;
+    border-color: black;
+    color: black;
+}
+
+/* carusel start*/
+.carousel-inner{
+    height: 500px;
+}
+
+.mv_inner{
+    position: relative;
+
+}
+.change_inner{
+    padding: 1vw 2.5vw;
+    left: 2vw;
+    bottom: 2vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    z-index: 100;
+}
+/* .change__unit{
+    margin-bottom: 0;
+} */
+.charge__unit dt{
+    padding-top: 0.3rem;
+}
+/* ーーーーーーーーーーーーーーーーーーーーheader部分index.htmlからのコピー */
+
+
+/* mainコンテンツ    各々のページで可変--------------------------------------- */
+.com-name{
     padding-left: 8px;
     border-left: 5px solid #444;
     padding-left: 15px;
 }
-h3{
+.h3-text{
     border-bottom: 2px solid  gray;
 }
-
 .c-info img{
     max-width: 500px;
     width: 100%;
@@ -33,9 +139,16 @@ h3{
 
 /* dlをtableの様に揃えるやり方。dt,dd共にwidthを揃えるところがポイント */
 .dl_table{
-    margin-top: 24px;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 2rem;
+
+}
+.entable{
+    border-top: 1px solid #cdc9c9;
+    width: 50%;
+    
+    margin-top: 0px;
 }
 dt,dd{
     display: flex;
@@ -48,3 +161,73 @@ dt{
 dd{
     width: 80%;
 }
+
+
+/* footerのCSSスタートーーーーーーーーーーーーーーーーーーーーーーー完成 */
+/*  todo--------後は、borderとフォントを直す */
+footer{
+    padding: 0 3rem 2rem 3rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+
+}
+.ftr_inner h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+.ftr_inner{
+    box-sizing: border-box;
+    padding: 2rem 2rem 4rem;
+    background-color: #f8f8f8;
+}
+.site-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ftr_inner .site-info_ttl{
+    position: relative;
+    /* 下二つで下線の調整 */
+    padding-bottom: 1.5em;
+    margin-bottom: 1em;
+}
+.ftr_inner .site-info_ttl:after{
+    display: block;
+    content: '';
+    width: 2em;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+}
+.m-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.m-row dt{
+    margin-right: 1em;
+}
+footer ul{
+    list-style: none;
+    padding-left: 0px;
+}
+footer li a{
+    color: black;
+}
+.follow dt, .share-ftr dt{
+    padding-bottom: 0.25rem;
+}
+.follow a, .share-ftr a{
+    color: black;
+}
+
+footer .copyright{
+    position: fixed;
+    top: 50%;
+    left: -3rem;
+    transform: rotate(-90deg) translateY(-50%);
+    font-size: 1rem;
+}
+/* ーーーーーーーーーーーーーーーーーーーーーーーfooterのCSS終了 */
