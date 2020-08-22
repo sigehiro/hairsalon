@@ -84,6 +84,22 @@ a.nav-link{
     color: black;
 }
 
+/* アイコン */
+.utility{
+    position: absolute;
+    top: -100px;
+    right: 0;
+}
+.icon-mail img,.share img{
+    max-width: 20px;
+}
+li.share-hdr{
+    margin-right: 10px;
+}
+li.share{
+    margin: 0 10px 0 10px;
+}
+
 /* carusel start*/
 .carousel-inner{
     height: 500px;
@@ -113,8 +129,51 @@ a.nav-link{
 
 
 /* mainコンテンツのCSSスタートーーーーーーーーーーーーーーーーーーーーーーー */
+.tareserved{
+    margin: 0 auto;
+}
+.reserved-inner{
+    max-width: 960px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    margin: 5rem auto;
+}
+
+a.btn{
+    margin-top: 1.6rem;
+}
+
+.reserved-btn{
+    border-left: 1px solid gray;
+    padding-left: 2em;
+}
+p.green{
+    text-align: center;
+    background-color: #0cc2f4;
+    color: white;
+    font-size: 1.5em;
+    margin-right: 2em;
+}
+th{
+    vertical-align: text-top;
+}
+
+th.cutmenu{
+    font-size: 2.5em;
+}
+th.mone{
+    font-size: 1.5em;
+}
 
 
+/* thanks.htmlのページ */
+.thanks-cont{
+    margin-top: 25em;
+}
+.th-cont{
+    font-size: 2.5rem;
+}
 
 /* footerのCSSスタートーーーーーーーーーーーーーーーーーーーーーーー完成 */
 /*  todo--------後は、borderとフォントを直す */
@@ -187,8 +246,8 @@ footer .copyright{
 
 /* PC型 768px~1024px */
 @media screen and (min-width: 768px) and (max-width: 1024px){
-    
-   
+
+
 }
 
 /* タブレット型 479px~767px*/
