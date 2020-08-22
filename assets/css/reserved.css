@@ -11,64 +11,10 @@ a:hover{
     text-decoration: none;
 }
 
-
-.st-contents{
-    margin-top: 2rem;
+.min{
+    font-family: 'Lato', sans-serif;
 }
 
-.price--hair{
-    background-image: url(../images/interior5-1.jpeg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-    padding-top: 22%;
-
-}
-
-.m-inner {
-    margin: 0 auto;
-    position: relative;
-    z-index: 100;
-    width: 80%;
-}
-.price__inner{
-    background-color: #fff;
-    border: 1px solid #cdc9c9;
-    padding-bottom: 4rem;
-
-}
-
-h1.m-ttl{
-    padding-top: 3em;
-}
-.m-note{
-    padding-bottom: 3em;
-}
-.priceCont{
-    border-bottom: 1px solid;
-    padding-bottom: 1rem;
-}
-h2.menu__unit__ttl{
-    margin-bottom: 1.3rem;
-    font-size: 1.2rem;
-}
-
-section.menu__unit{
-    padding: 0.5em;
-    border-bottom: 1px solid;
-    margin: 2em 1em 3em 1em;
-}
-section ul{
-    padding-left: 0px;
-}
-.menu__unit__list dl{
-    margin-bottom: 0.5rem;
-}
-dt{
-    color: gray;
-}
-
-/* header start -----------------------------------*/
 .hdr-upper{
     padding: 2.5em 0 1em 0;
     font-size: 2.8em;
@@ -138,22 +84,6 @@ a.nav-link{
     color: black;
 }
 
-/* アイコン */
-.utility{
-    position: absolute;
-    top: -100px;
-    right: 0;
-}
-.icon-mail img,.share img{
-    max-width: 20px;
-}
-li.share-hdr{
-    margin-right: 10px;
-}
-li.share{
-    margin: 0 10px 0 10px;
-}
-
 /* carusel start*/
 .carousel-inner{
     height: 500px;
@@ -178,8 +108,13 @@ li.share{
 .charge__unit dt{
     padding-top: 0.3rem;
 }
+/* -----------------------------ここまでがheader部分 finish-*/
 
-/* -----------------------------------header finish */
+
+
+/* mainコンテンツのCSSスタートーーーーーーーーーーーーーーーーーーーーーーー */
+
+
 
 /* footerのCSSスタートーーーーーーーーーーーーーーーーーーーーーーー完成 */
 /*  todo--------後は、borderとフォントを直す */
@@ -246,4 +181,22 @@ footer .copyright{
     top: 50%;
     left: -3rem;
     transform: rotate(-90deg) translateY(-50%);
+    font-size: 1rem;
+}
+/* ーーーーーーーーーーーーーーーーーーーーーーーfooterのCSS終了 */
+
+/* PC型 768px~1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    
+   
+}
+
+/* タブレット型 479px~767px*/
+@media screen and (min-width: 479px) and (max-width: 767px){
+
+}
+
+/* スマホ mobile型 ~478px*/
+@media screen and (max-width: 478px){
+
 }

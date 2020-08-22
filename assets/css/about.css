@@ -84,6 +84,21 @@ a.nav-link{
     border-color: black;
     color: black;
 }
+/* アイコン */
+.utility{
+    position: absolute;
+    top: -100px;
+    right: 0;
+}
+.icon-mail img,.share img{
+    max-width: 20px;
+}
+li.share-hdr{
+    margin-right: 10px;
+}
+li.share{
+    margin: 0 10px 0 10px;
+}
 
 /* carusel start*/
 .carousel-inner{
