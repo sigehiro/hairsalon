@@ -1,0 +1,449 @@
+
+body{
+    font-size: 62.5%;
+    font-family: "游ゴシック", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "Yu Gothic", sans-serif;
+}
+h2,h3,h4,h5,h6,p{
+    font-family: 'Lato', sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.min{
+    font-family: 'Lato', sans-serif;
+}
+
+.hdr-upper{
+    padding: 2.5em 0 1em 0;
+    font-size: 2.8em;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+h1{
+    margin: 0;
+    font-size: 1.8rem;
+}
+.hdr-upper a {
+    color: black;
+}
+.hdr-middle{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 1em 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.hdr-bar-middle{
+    margin: 0;
+
+}
+.nav-wrap{
+    max-width: 1024px;
+    width: auto;
+}
+/* .gnav{
+    display: flex;
+    position: relative;
+    z-index: 100;
+} */
+
+.reserved{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+ul.navbar-low{
+    display: flex;
+    padding-left: 0px;
+}
+li.nav-item{
+    padding: 1.5rem 5rem 0.5rem 4rem;
+    font-size: 1.4em;
+}
+
+a.nav-link{
+    padding: 0;
+    color: black;
+}
+.btn_inner{
+    border-width: 1px;
+    border-style: solid;
+    padding: 1em 1em;
+    font-size: 1.4em;
+    border-color: black;
+    text-decoration: none;
+    /* これが効かない下線が入ってしまう。 */
+}
+.reserved span{
+    line-height: 1;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0.5em 1em;
+    border-color: black;
+    color: black;
+}
+
+/* アイコン */
+.utility{
+    position: absolute;
+    top: -100px;
+    right: 0;
+}
+.icon-mail img,.share img{
+    max-width: 20px;
+}
+li.share-hdr{
+    margin-right: 10px;
+}
+li.share{
+    margin: 0 10px 0 10px;
+}
+
+/* carusel start*/
+.carousel-inner{
+    height: 500px;
+}
+
+.mv_inner{
+    position: relative;
+
+}
+.change_inner{
+    padding: 1vw 2.5vw;
+    left: 2vw;
+    bottom: 2vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    z-index: 100;
+}
+/* .change__unit{
+    margin-bottom: 0;
+} */
+.charge__unit dt{
+    padding-top: 0.3rem;
+}
+/* -----------------------------ここまでがheader部分 finish-*/
+
+
+
+/* mainコンテンツのCSSスタートーーーーーーーーーーーーーーーーーーーーーーー */
+
+.information{
+    /* display: flex;
+    justify-content: space-around; */
+    margin-top: 20rem;
+    /* 上との調整で仮にマージンをかけている */
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 5rem;
+}
+.info_hdr h4{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+/* .info-list{
+    margin-left: 30px;
+} */
+dl{
+/*    margin-top: 1em;*/
+/*    margin-bottom: 0;*/
+}
+dl.info-list-unit{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top:1rem;
+/*    width: 450px;*/
+    margin: 0 auto;
+}
+dt{
+    font-weight: 100;
+}
+dd{
+    font-size: 1.1rem;
+}
+time{
+    font-size: 1.1rem;
+}
+dl.info-list-unit{
+    display: flex;
+    justify-content: center;
+}
+.info-list dt{
+    width: 150px;
+}
+.info-list {
+    text-align: center;
+}
+.info-list-unit dt{
+    text-align: left;
+}
+.info-list-unit dd{
+    margin-left: 60px;
+}
+
+/* product */
+#product{
+    display: flex;
+    margin-top: 20rem;
+}
+.product-img{
+    height: 5rem;
+}
+.photobox img{
+    max-width: 600px;
+    width: 100%;
+
+
+}
+
+.info_hdr>.readmore{
+    text-align: center;
+    padding: 10px 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s;
+    width: 100px;
+    margin: 2rem auto;
+    border: 1px solid black;
+}
+.pho-cont>.readmore{
+    text-align: center;
+    margin: 2rem 1rem 2rem auto;
+    padding: 10px 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s;
+    width: 100px;
+    border: 1px solid black;
+/*    margin: 2rem auto;*/
+}
+/*
+.recruit.readmore{
+    text-align: center;
+    padding: 10px 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s;
+    width: 100px;
+    margin: 2rem auto;
+}
+*/
+.readmore:hover{
+    background-position: -100% 0;
+}
+
+.readmore a{
+    color: black;
+    font-size: 1.5em;
+}
+.readmore a:hover{
+    color: white;
+}
+.pho-cont h4{
+    font-size: 2rem;
+    text-align: center;
+}
+.photo-pcon{
+    font-size: 1.6em;
+    margin-top: 3rem;
+}
+/*
+.pho-cont>.readmore{
+    text-align: right;
+    margin: 2rem 1rem 2rem auto;
+    padding: 10px 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s;
+    width: 100px;
+    margin: 2rem auto;
+}
+*/
+/* map */
+#map,.recruit{
+    margin-top: 20rem;
+    text-align: center;
+}
+#map h4{
+    margin: 3rem;
+    font-size: 2rem;
+}
+#map p,.recruit p{
+    font-size: 1.4em;
+    margin-bottom: 2.5rem;
+}
+
+/* recruit */
+.recruit{
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 1rem;
+}
+.recruit img{
+    max-width: 600px;
+    width: 100%;
+}
+.recruit h4{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+p.readmore{
+    text-align: center;
+/*    padding: 10x 10px;*/
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s;
+    width: 160px;
+    margin: 2rem auto;
+    border: 1px solid black;
+}
+.rec-img{
+    margin-top: 2rem;
+}
+
+/* footerのCSSスタートーーーーーーーーーーーーーーーーーーーーーーー完成 */
+/*  todo--------後は、borderとフォントを直す */
+footer{
+    padding: 0 3rem 2rem 3rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+
+}
+.ftr_inner h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+.ftr_inner{
+    box-sizing: border-box;
+    padding: 2rem 2rem 4rem;
+    background-color: #f8f8f8;
+}
+.site-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ftr_inner .site-info_ttl{
+    position: relative;
+    /* 下二つで下線の調整 */
+    padding-bottom: 1.5em;
+    margin-bottom: 1em;
+}
+.ftr_inner .site-info_ttl:after{
+    display: block;
+    content: '';
+    width: 2em;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+}
+.m-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.m-row dt{
+    margin-right: 1em;
+}
+footer ul{
+    list-style: none;
+    padding-left: 0px;
+}
+footer li a{
+    color: black;
+}
+.follow dt, .share-ftr dt{
+    padding-bottom: 0.25rem;
+}
+.follow a, .share-ftr a{
+    color: black;
+}
+
+footer .copyright{
+    position: fixed;
+    top: 50%;
+    left: -3rem;
+    transform: rotate(-90deg) translateY(-50%);
+    font-size: 1rem;
+}
+/* ーーーーーーーーーーーーーーーーーーーーーーーfooterのCSS終了 */
+
+/* PC型 768px~1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    
+
+    .btn_inner{
+        position: absolute;
+        top: -85px;
+        right: 20px;
+    }
+    
+    .change_inner{
+        position: absolute;
+        bottom: 110px;
+        left: 10px;
+    }
+/*    product*/
+    .photobox{
+            position: absolute;
+            top: 12%;
+    }
+    
+    
+}
+
+/* タブレット型 479px~767px*/
+@media screen and (min-width: 479px) and (max-width: 767px){
+
+    
+    .change_inner{
+        display: none;
+    }
+    .information{
+        margin-top: 0;
+    }
+    
+    button{
+        position: absolute;
+        top: -115px;
+        right: 10px;
+    }
+    
+    .information{
+        margin-top: 0;
+    }
+    #product{
+        margin-top: 5rem;
+    }
+    .photo-pcon{
+        margin-top: 0;
+    }
+    #map{
+        margin-top: 0;
+    }
+    .recruit{
+        margin-top: 5rem;
+    }
+    
+}
+
+/* スマホ mobile型 ~478px*/
+@media screen and (max-width: 478px){
+
+    
+
+    
+    
+    
+    
+    
+    
+}

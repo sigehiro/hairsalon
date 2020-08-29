@@ -1,0 +1,280 @@
+body{
+    font-size: 62.5%;
+    font-family: "游ゴシック", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "Yu Gothic", sans-serif;
+}
+h2,h3,h4,h5,h6,p{
+    font-family: 'Lato', sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.min{
+    font-family: 'Lato', sans-serif;
+}
+
+.hdr-upper{
+    padding: 2.5em 0 1em 0;
+    font-size: 2.8em;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+h1{
+    margin: 0;
+    font-size: 1.8rem;
+}
+.hdr-upper a {
+    color: black;
+}
+.hdr-middle{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 1em 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.hdr-bar-middle{
+    margin: 0;
+
+}
+.nav-wrap{
+    max-width: 1024px;
+    width: auto;
+}
+/* .gnav{
+    display: flex;
+    position: relative;
+    z-index: 100;
+} */
+
+p.reserved{
+    position: absolute;
+    top: -35%;
+    right: 25px;
+}
+ul.navbar-low{
+    display: flex;
+    padding-left: 0px;
+}
+li.nav-item{
+    padding: 1.5rem 5rem 0.5rem 4rem;
+    font-size: 1.4em;
+}
+
+a.nav-link{
+    padding: 0;
+    color: black;
+}
+.btn_inner{
+    border-width: 1px;
+    border-style: solid;
+    padding: 1em 1em;
+    font-size: 1.4em;
+    border-color: black;
+    text-decoration: none;
+    /* これが効かない下線が入ってしまう。 */
+}
+.reserved span{
+    line-height: 1;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0.5em 1em;
+    border-color: black;
+    color: black;
+}
+
+.utility{
+    position: absolute;
+    top: -100px;
+    right: 0;
+}
+.icon-mail img,.share img{
+    max-width: 20px;
+}
+li.share-hdr{
+    margin-right: 10px;
+}
+li.share{
+    margin: 0 10px 0 10px;
+}
+
+
+/* -----------------------------ここまでがheader部分 finish-*/
+
+
+
+/* ここからmain----------- */
+
+.contact-con{
+    margin-top:7rem;
+    margin-bottom: 10rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+p {
+    font-size: 1em;
+    /* font-weight: bold; */
+    text-align: center;
+    margin: 60px auto 40px;
+}
+
+input[type="submit"],input[type="text"],select,textarea,button {
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+input.btn{
+    width: 200px;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px red;
+}
+
+input.btn:hover {
+    background-color: #ffecea;
+  }
+
+input[type="text"],textarea {
+    background: #f8f8f8;
+    display: block;
+    font-size: 16px;
+    padding: 12px 15px;
+    width: 480px;
+    transition: 0.8s;
+    border-radius: 0;
+}
+
+input[type="text"]:focus,textarea:focus {
+    background: #e9f5fb;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+textarea[name="content"] {
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+}
+
+input::placeholder,textarea::placeholder {
+    color: #ccc;
+}
+
+form{
+    text-align: center;
+}
+.form-table {
+    width: 100%;
+}
+
+.form-table th,.form-table td {
+    border: 1px solid #d7d7d7;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.form-table th {
+    background: #ffecea;
+    padding-left: 50px;
+    position: relative;
+    text-align: left;
+    width: 350px;
+}
+
+/* .btn{
+    border-bottom: solid 10px red;
+} */
+
+
+/* レスポンシブル用 */
+/* .form-table th,
+.form-table td {
+  display: block;
+  width: 100%;
+  border-bottom: none;
+} */
+ 
+
+
+
+
+
+
+
+
+
+
+/* footerのCSSスタートーーーーーーーーーーーーーーーーーーーーーーー完成 */
+/*  todo--------後は、borderとフォントを直す */
+/* footerのCSSスタートーーーーーーーーーーーーーーーーーーーーーーー完成 */
+/*  todo--------後は、borderとフォントを直す */
+footer{
+    padding: 0 3rem 2rem 3rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+
+}
+.ftr_inner h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+.ftr_inner{
+    box-sizing: border-box;
+    padding: 2rem 2rem 4rem;
+    background-color: #f8f8f8;
+}
+.site-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ftr_inner .site-info_ttl{
+    position: relative;
+    /* 下二つで下線の調整 */
+    padding-bottom: 1.5em;
+    margin-bottom: 1em;
+}
+.ftr_inner .site-info_ttl:after{
+    display: block;
+    content: '';
+    width: 2em;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+}
+.m-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.m-row dt{
+    margin-right: 1em;
+}
+footer ul{
+    list-style: none;
+    padding-left: 0px;
+}
+footer li a{
+    color: black;
+}
+.follow dt, .share-ftr dt{
+    padding-bottom: 0.25rem;
+}
+.follow a, .share-ftr a{
+    color: black;
+}
+
+/* footer .copyright{
+    position: fixed;
+    top: 50%;
+    left: -3rem;
+    transform: rotate(-90deg) translateY(-50%);
+    font-size: 1rem;
+} */
