@@ -46,11 +46,14 @@ h1{
     position: relative;
     z-index: 100;
 } */
-
-p.reserved{
+/* humbergermenu */
+.rwd-not-pc{
+    display: none;
+}
+.reserved{
     position: absolute;
-    top: -35%;
-    right: 25px;
+    top: -40%;
+    right: 0;
 }
 ul.navbar-low{
     display: flex;
@@ -82,7 +85,7 @@ a.nav-link{
     border-color: black;
     color: black;
 }
-
+/* アイコン */
 .utility{
     position: absolute;
     top: -100px;
@@ -97,7 +100,30 @@ li.share-hdr{
 li.share{
     margin: 0 10px 0 10px;
 }
+/* carusel start*/
+.carousel-inner{
+    height: 500px;
+}
 
+.mv_inner{
+    position: relative;
+
+}
+.change_inner{
+    padding: 1vw 2.5vw;
+    left: 2vw;
+    bottom: 2vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    z-index: 100;
+}
+/* .change__unit{
+    margin-bottom: 0;
+} */
+.charge__unit dt{
+    padding-top: 0.3rem;
+}
 
 /* -----------------------------ここまでがheader部分 finish-*/
 
@@ -174,7 +200,7 @@ form{
 
 .form-table th,.form-table td {
     border: 1px solid #d7d7d7;
-    font-size: 2rem;
+    font-size: 2em;
     padding: 20px;
 }
 
@@ -183,7 +209,7 @@ form{
     padding-left: 50px;
     position: relative;
     text-align: left;
-    width: 350px;
+    /* width: 350px; */
 }
 
 /* .btn{
@@ -198,7 +224,7 @@ form{
   width: 100%;
   border-bottom: none;
 } */
- 
+
 
 
 
@@ -254,6 +280,9 @@ footer{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.sitemap li{
+    padding: 0.5em 0;
+}
 .m-row dt{
     margin-right: 1em;
 }
@@ -271,10 +300,321 @@ footer li a{
     color: black;
 }
 
-/* footer .copyright{
+footer .copyright{
     position: fixed;
     top: 50%;
     left: -3rem;
     transform: rotate(-90deg) translateY(-50%);
     font-size: 1rem;
-} */
+}
+
+/* PC型 768px~1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    
+    /* humbergermenu */
+    .rwd-not-pc{
+        display: none;
+    }
+
+
+
+    li.nav-item {
+        padding: 1.5rem 3rem 0.5rem 4rem;
+        font-size: 1.4em;
+    }
+    .btn_inner{
+        position: absolute;
+        top: -83px;
+        right: 20px;
+    }
+
+    .change_inner{
+        position: absolute;
+        bottom: 110px;
+        left: 10px;
+    }
+    .photobox{
+            position: absolute;
+            top: 12%;
+    }
+
+    .photo-pcon,#map{
+        margin-top: 0;
+    }
+    .information,#product,.recrui,.recruit{
+        margin-top: 5rem;
+    }
+
+
+    .form-table th {
+        background: #ffecea;
+        padding-left: 10px;
+        position: relative;
+        text-align: left;
+        /* width: auto; */
+    }
+    .form-table th, .form-table td {
+        font-size: 1.5em;
+    }
+  
+}
+
+/* タブレット型 479px~767px*/
+@media screen and (min-width: 479px) and (max-width: 767px){
+
+    /* humbergermenu */
+    ul.navbar-low, .rwd-not-pc{
+        display: block;
+    }
+    li.nav-item{
+        text-align: center;
+        padding: 1.5rem 5rem 0.5rem 5rem;
+    }
+    .reserved{
+        position: static;
+    }
+    .btn_inner{
+        border: none;
+    }
+
+    .change_inner{
+        border: none;
+    }
+    .reserved span{
+        border: none;
+    }
+    .utility{
+        display: none;
+    }
+    .rwd-not-pc{
+        padding: 1.5rem 5rem 0.5rem 5rem;
+        font-size: 1.4em;
+        text-align: center;
+    }
+    .reserved{
+        padding: 1.5rem 5rem 2.5rem 5rem;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-align: center;
+        margin: 0;
+    }
+    .btn_inner span{
+        color: white;
+        font-size: 2em;
+    }
+    .navbar{
+        background-color: rgba(0,0,0,0.2);
+        padding: 0;
+    }
+    a.nav-link{
+        color: white;
+        font-size: 2em;
+    }
+    li.nav-item a:hover{
+        background-color: honeydew;
+        color: black;
+    }
+    li.rwd-not-pc a:hover{
+        background-color: honeydew;
+        color: black;
+    }
+    .reserved a:hover{
+        background-color: honeydew;
+    }
+    .btn_inner span:hover{
+        color: black;
+    }
+    /* ここまでhumbergermenu */
+
+
+    .change_inner{
+        bottom: 360px;
+    }
+    button{
+        position: absolute;
+        top: -115px;
+        right: 10px;
+    }
+    
+    .information,.photo-pcon,#map{
+        margin-top: 0;
+    }
+    #product,.recruit{
+        margin-top: 5rem;
+    }
+    .site-info,.sitemap{
+        display: block;
+    }
+    .site-info__unit{
+        margin: 5rem 0;
+    }
+   
+    .ftr_inner,.site-info{
+        text-align: center;
+    }
+    .ftr_inner{
+        font-size: 200%;
+    }
+    .ftr_inner .site-info_ttl{
+        position: static;
+    }
+    .site-info_ttl{
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+    footer .copyright{
+        position: static;
+        transform:none;
+        font-size: 1rem;
+    }
+    small {
+        font-size: 100%;
+    }
+    .ftr_inner .site-info_ttl:after{
+        display: none;
+    }
+    .form-table th {
+        background: #ffecea;
+        padding-left: 25px;
+        position: relative;
+        text-align: left;
+        /* width: auto; */
+    }
+    .form-table th, .form-table td {
+        font-size: 1.5em;
+    }
+    
+}
+
+/* スマホ mobile型 ~478px*/
+@media screen and (max-width: 478px){
+
+    /* humbergermenu */
+    ul.navbar-low, .rwd-not-pc{
+        display: block;
+    }
+    li.nav-item{
+        text-align: center;
+        padding: 1.5rem 5rem 0.5rem 5rem;
+    }
+    .reserved{
+        position: static;
+    }
+    .btn_inner{
+        border: none;
+    }
+
+    .change_inner{
+        border: none;
+    }
+    .reserved span{
+        border: none;
+    }
+    .utility{
+        display: none;
+    }
+    .rwd-not-pc{
+        padding: 1.5rem 5rem 0.5rem 5rem;
+        font-size: 1.4em;
+        text-align: center;
+    }
+    .nav-link small{
+        display: none;
+    }
+    .reserved{
+        padding: 1.5rem 5rem 0.5rem 5rem;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .btn_inner span{
+        color: white;
+        font-size: 2em;
+    }
+    .navbar{
+        background-color: rgba(0,0,0,0.2);
+        padding: 0;
+    }
+    a.nav-link{
+        color: white;
+        font-size: 2em;
+    }
+    li.nav-item a:hover{
+        background-color: honeydew;
+        color: black;
+    }
+    li.rwd-not-pc a:hover{
+        background-color: honeydew;
+        color: black;
+    }
+    .reserved a:hover{
+        background-color: honeydew;
+    }
+    .btn_inner span:hover{
+        color: black;
+    }
+    /* ここまでhumbergermenu */
+
+
+
+
+    .change_inner{
+        display: none;
+    }
+    
+    button{
+        position: absolute;
+        top: -115px;
+        right: 10px;
+    }
+
+    .information,.photo-pcon,#map{
+        margin-top: 0;
+    }
+    #product,.recruit{
+        margin-top: 5rem;
+    }
+    dl.info-list-unit {
+        justify-content: center;
+        display: block;
+    }
+    .info-list-unit dt{
+        margin-left: 1em;
+    }
+    .info-list-unit dd {
+        margin: 1em auto;
+    }
+    .site-info,.sitemap{
+        display: block;
+    }
+    .site-info__unit{
+        margin: 5rem 0;
+    }
+   
+    .ftr_inner,.site-info{
+        text-align: center;
+    }
+    .ftr_inner{
+        font-size: 200%;
+    }
+    .ftr_inner .site-info_ttl{
+        position: static;
+    }
+    .site-info_ttl{
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+    footer .copyright{
+        position: static;
+        transform:none;
+        font-size: 1rem;
+    }
+    small {
+        font-size: 100%;
+    }
+    .ftr_inner .site-info_ttl:after{
+        display: none;
+    }
+   
+
+
+
+}

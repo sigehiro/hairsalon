@@ -42,12 +42,15 @@ h1{
     max-width: 1024px;
     width: auto;
 }
-.gnav{
+/* .gnav{
     display: flex;
     position: relative;
     z-index: 100;
+} */
+/* humbergermenu */
+.rwd-not-pc{
+    display: none;
 }
-
 .reserved{
     position: absolute;
     top: 50%;
@@ -218,6 +221,12 @@ footer{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.time dd,.follow dd, .share-ftr dd{
+    font-size: 1em;
+}
+.sitemap li{
+    padding: 0.5em 0;
+}
 .m-row dt{
     margin-right: 1em;
 }
@@ -246,16 +255,303 @@ footer .copyright{
 
 /* PC型 768px~1024px */
 @media screen and (min-width: 768px) and (max-width: 1024px){
+    
+    /* humbergermenu */
+    .rwd-not-pc{
+        display: none;
+    }
 
+
+
+    li.nav-item {
+        padding: 1.5rem 3rem 0.5rem 4rem;
+        font-size: 1.4em;
+    }
+    .btn_inner{
+        position: absolute;
+        top: -85px;
+        right: 20px;
+    }
+
+    .change_inner{
+        position: absolute;
+        bottom: 110px;
+        left: 10px;
+    }
+    .photobox{
+            position: absolute;
+            top: 12%;
+    }
+
+    .photo-pcon,#map{
+        margin-top: 0;
+    }
+    .information,#product,.recrui,.recruit{
+        margin-top: 5rem;
+    }
+    .reserved-btn-inner a.btn{
+        margin-top: 2.5em;
+    }
 
 }
 
 /* タブレット型 479px~767px*/
 @media screen and (min-width: 479px) and (max-width: 767px){
 
+    /* humbergermenu */
+    ul.navbar-low, .rwd-not-pc{
+        display: block;
+    }
+    li.nav-item{
+        text-align: center;
+        padding: 1.5rem 5rem 0.5rem 5rem;
+    }
+    .reserved{
+        position: static;
+    }
+    .reserved-btn{
+        border-top: 1px solid gray;
+        border-left: none;
+        margin-left: 0;
+        margin-top: 2em;
+    }
+
+    .btn_inner{
+        border: none;
+    }
+
+    .change_inner{
+        border: none;
+    }
+    .reserved span{
+        border: none;
+    }
+    .utility{
+        display: none;
+    }
+    .rwd-not-pc{
+        padding: 1.5rem 5rem 0.5rem 5rem;
+        font-size: 1.4em;
+        text-align: center;
+    }
+    .reserved{
+        padding: 1.5rem 5rem 0.5rem 5rem;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .btn_inner span{
+        color: white;
+        font-size: 2em;
+    }
+    .navbar{
+        background-color: rgba(0,0,0,0.2);
+        padding: 0;
+    }
+    a.nav-link{
+        color: white;
+        font-size: 2em;
+    }
+    li.nav-item a:hover{
+        background-color: honeydew;
+        color: black;
+    }
+    li.rwd-not-pc a:hover{
+        background-color: honeydew;
+        color: black;
+    }
+    .reserved a:hover{
+        background-color: honeydew;
+    }
+    .btn_inner span:hover{
+        color: black;
+    }
+    /* ここまでhumbergermenu */
+
+
+    .change_inner{
+        bottom: 360px;
+    }
+    button{
+        position: absolute;
+        top: -115px;
+        right: 10px;
+    }
+    
+    .information,.photo-pcon,#map{
+        margin-top: 0;
+    }
+    #product,.recruit{
+        margin-top: 5rem;
+    }
+    .site-info,.sitemap{
+        display: block;
+    }
+    .site-info__unit{
+        margin: 5rem 0;
+    }
+   
+    .ftr_inner,.site-info{
+        text-align: center;
+    }
+    .ftr_inner{
+        font-size: 200%;
+    }
+    .ftr_inner .site-info_ttl{
+        position: static;
+    }
+    .site-info_ttl{
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+    footer .copyright{
+        position: static;
+        transform:none;
+        font-size: 1rem;
+    }
+    small {
+        font-size: 100%;
+    }
+    .ftr_inner .site-info_ttl:after{
+        display: none;
+    }
 }
 
 /* スマホ mobile型 ~478px*/
 @media screen and (max-width: 478px){
+
+    /* humbergermenu */
+    ul.navbar-low, .rwd-not-pc{
+        display: block;
+    }
+    li.nav-item{
+        text-align: center;
+        padding: 1.5rem 5rem 0.5rem 5rem;
+    }
+    .reserved{
+        position: static;
+    }
+    .reserved-btn{
+        border-top: 1px solid gray;
+        border-left: none;
+        margin-left: 0;
+        margin-top: 2em;
+    }
+    .btn_inner{
+        border: none;
+    }
+
+    .change_inner{
+        border: none;
+    }
+    .reserved span{
+        border: none;
+    }
+    .utility{
+        display: none;
+    }
+    .rwd-not-pc{
+        padding: 1.5rem 5rem 0.5rem 5rem;
+        font-size: 1.4em;
+        text-align: center;
+    }
+    .nav-link small{
+        display: none;
+    }
+    .reserved{
+        padding: 1.5rem 5rem 0.5rem 5rem;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .btn_inner span{
+        color: white;
+        font-size: 2em;
+    }
+    .navbar{
+        background-color: rgba(0,0,0,0.2);
+        padding: 0;
+    }
+    a.nav-link{
+        color: white;
+        font-size: 2em;
+    }
+    li.nav-item a:hover{
+        background-color: honeydew;
+        color: black;
+    }
+    li.rwd-not-pc a:hover{
+        background-color: honeydew;
+        color: black;
+    }
+    .reserved a:hover{
+        background-color: honeydew;
+    }
+    .btn_inner span:hover{
+        color: black;
+    }
+    /* ここまでhumbergermenu */
+
+
+
+
+    .change_inner{
+        display: none;
+    }
+    
+    button{
+        position: absolute;
+        top: -115px;
+        right: 10px;
+    }
+
+    .information,.photo-pcon,#map{
+        margin-top: 0;
+    }
+    #product,.recruit{
+        margin-top: 5rem;
+    }
+    dl.info-list-unit {
+        justify-content: center;
+        display: block;
+    }
+    .info-list-unit dt{
+        margin-left: 1em;
+    }
+    .info-list-unit dd {
+        margin: 1em auto;
+    }
+    .site-info,.sitemap{
+        display: block;
+    }
+    .site-info__unit{
+        margin: 5rem 0;
+    }
+   
+    .ftr_inner,.site-info{
+        text-align: center;
+    }
+    .ftr_inner{
+        font-size: 200%;
+    }
+    .ftr_inner .site-info_ttl{
+        position: static;
+    }
+    .site-info_ttl{
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+    footer .copyright{
+        position: static;
+        transform:none;
+        font-size: 1rem;
+    }
+    small {
+        font-size: 100%;
+    }
+    .ftr_inner .site-info_ttl:after{
+        display: none;
+    }
+   
+
+
 
 }

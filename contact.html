@@ -7,6 +7,7 @@
 <!--		<link rel="stylesheet" href="assets/css/customstyle.css">-->
 		<link rel="stylesheet" href="assets/css/nomalize.css">
 		<link rel="stylesheet" href="assets/css/contact.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 		<title>CONTACT|Alexsa</title>
 	</head>
 	<body>
@@ -20,14 +21,14 @@
 				</div>
 				<!-- ナビゲーションータブレットとスマホ -->
 
-				<nav class="navbar navbar-expand-md navbar-light bg-white relative-top justify-content-around">
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="ナビゲーションメニューボタン">
+				<nav class="navbar navbar-expand-md navbar-light  relative-top justify-content-around position-relative">
+					<button class="navbar-toggler nav-buttom" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="ナビゲーションメニューボタン">
 						<span class="navbar-toggler-icon"></span>
 					</button>
-<!-- navがレスポンシブルにならない -->
 					<!-- 上のbuttonと連携している -->
 					<div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
 					<!--<div class="hdr-bar_lower">-->
+						<div class="hambergermenu">
 							<div class="nav-wrap">
 								<ul class="navbar-low">
 									<li class="nav-item">
@@ -44,9 +45,9 @@
 									</li>
 
 
-									<!-- <li class="rwd-not-pc">
+									<li class="rwd-not-pc">
 										<a class="nav-link" href="contact.html"><span>Contact<small>（お問い合わせ）</small></span></a>
-									</li> -->
+									</li>
 								</ul>
 
 								<p class="reserved">
@@ -65,7 +66,7 @@
 								<li class="share"><a href="#" target="_blank" rel="noopener noreferrer"><img src="assets/images/icon-ist.jpg" alt=""></a></li>
 							</ul>
 					<!--</div>hdr-bar_lower-->
-
+						</div>
 					</div>
 				</nav>
 			</header>
@@ -78,8 +79,8 @@
 								<table class="form-table">
 									<tbody>
 										<tr>
-											<th>氏名</th>
-											<td><input type="text" name="name" size="60" value="" placeholder="山田太郎">
+											<th class="thTable col-md-4 col-xs-12">氏名</th>
+											<td class="tdTable col-md-8 col-xs-12"><input type="text" name="name" size="60" value="" placeholder="山田太郎">
 											</td>
 										</tr>
 										<tr>
@@ -166,5 +167,8 @@
 									<p class="copyright"><small>&copy;Alexsa SSS All Rights Reserved.</small></p>
 								</div>
 							</footer>
+							<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+							<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+							<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 						</body>
 					</html>
