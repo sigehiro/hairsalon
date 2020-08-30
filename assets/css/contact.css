@@ -46,6 +46,7 @@ h1{
     position: relative;
     z-index: 100;
 } */
+<<<<<<< HEAD
 /* humbergermenu */
 .rwd-not-pc{
     display: none;
@@ -54,6 +55,13 @@ h1{
     position: absolute;
     top: -40%;
     right: 0;
+=======
+
+p.reserved{
+    position: absolute;
+    top: -35%;
+    right: 25px;
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
 }
 ul.navbar-low{
     display: flex;
@@ -85,7 +93,11 @@ a.nav-link{
     border-color: black;
     color: black;
 }
+<<<<<<< HEAD
 /* アイコン */
+=======
+
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
 .utility{
     position: absolute;
     top: -100px;
@@ -100,6 +112,7 @@ li.share-hdr{
 li.share{
     margin: 0 10px 0 10px;
 }
+<<<<<<< HEAD
 /* carusel start*/
 .carousel-inner{
     height: 500px;
@@ -124,6 +137,9 @@ li.share{
 .charge__unit dt{
     padding-top: 0.3rem;
 }
+=======
+
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
 
 /* -----------------------------ここまでがheader部分 finish-*/
 
@@ -200,7 +216,11 @@ form{
 
 .form-table th,.form-table td {
     border: 1px solid #d7d7d7;
+<<<<<<< HEAD
     font-size: 2em;
+=======
+    font-size: 2rem;
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
     padding: 20px;
 }
 
@@ -209,7 +229,11 @@ form{
     padding-left: 50px;
     position: relative;
     text-align: left;
+<<<<<<< HEAD
     /* width: 350px; */
+=======
+    width: 350px;
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
 }
 
 /* .btn{
@@ -224,7 +248,11 @@ form{
   width: 100%;
   border-bottom: none;
 } */
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
 
 
 
@@ -280,9 +308,12 @@ footer{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+<<<<<<< HEAD
 .sitemap li{
     padding: 0.5em 0;
 }
+=======
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
 .m-row dt{
     margin-right: 1em;
 }
@@ -300,12 +331,17 @@ footer li a{
     color: black;
 }
 
+<<<<<<< HEAD
 footer .copyright{
+=======
+/* footer .copyright{
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
     position: fixed;
     top: 50%;
     left: -3rem;
     transform: rotate(-90deg) translateY(-50%);
     font-size: 1rem;
+<<<<<<< HEAD
 }
 
 /* PC型 768px~1024px */
@@ -618,3 +654,6 @@ footer .copyright{
 
 
 }
+=======
+} */
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58

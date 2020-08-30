@@ -48,10 +48,14 @@ h1{
     position: relative;
     z-index: 100;
 }
+<<<<<<< HEAD
 /* humbergermenu */
 .rwd-not-pc{
     display: none;
 }
+=======
+
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
 .reserved{
     position: absolute;
     top: 50%;
@@ -202,13 +206,22 @@ footer{
 .site-info{
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
     justify-content: space-between;
+=======
+    justify-content: space-around;
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
 }
 .ftr_inner .site-info_ttl{
     position: relative;
     /* 下二つで下線の調整 */
+<<<<<<< HEAD
     padding-bottom: 1em;
     margin-bottom: 2em;
+=======
+    padding-bottom: 1.5em;
+    margin-bottom: 1em;
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
 }
 .ftr_inner .site-info_ttl:after{
     display: block;
@@ -224,12 +237,15 @@ footer{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+<<<<<<< HEAD
 .time dd,.follow dd, .share-ftr dd{
     font-size: 1em;
 }
 .sitemap li{
     padding: 0.5em 0;
 }
+=======
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
 .m-row dt{
     margin-right: 1em;
 }
@@ -254,6 +270,7 @@ footer .copyright{
     transform: rotate(-90deg) translateY(-50%);
     font-size: 1rem;
 }
+<<<<<<< HEAD
 /* ーーーーーーーーーーーーーーーーーーーーーーーfooterのCSS終了 */
 
 /* PC型 768px~1024px */
@@ -580,3 +597,6 @@ footer .copyright{
 
 
 }
+=======
+/* ーーーーーーーーーーーーーーーーーーーーーーーfooterのCSS終了 */
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58

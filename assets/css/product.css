@@ -9,6 +9,7 @@ h2,h3,h4,h5,h6,p{
 a:hover{
     text-decoration: none;
 }
+<<<<<<< HEAD
 .min{
     font-family: 'Lato', sans-serif;
 }
@@ -127,6 +128,8 @@ li.share{
     padding-top: 0.3rem;
 }
 /* -----------------------------ここまでが共通header部分 finish-*/
+=======
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
 
 
 h2>img{
@@ -340,9 +343,12 @@ footer{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+<<<<<<< HEAD
 .sitemap li{
     padding: 0.5em 0;
 }
+=======
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
 .m-row dt{
     margin-right: 1em;
 }
@@ -365,6 +371,7 @@ footer .copyright{
     top: 50%;
     left: -3rem;
     transform: rotate(-90deg) translateY(-50%);
+<<<<<<< HEAD
     font-size: 1rem;
 }
 /* ーーーーーーーーーーーーーーーーーーーーーーーfooterのCSS終了 */
@@ -802,3 +809,6 @@ footer .copyright{
     }
 
 }
+=======
+}
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58

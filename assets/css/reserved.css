@@ -42,6 +42,7 @@ h1{
     max-width: 1024px;
     width: auto;
 }
+<<<<<<< HEAD
 /* .gnav{
     display: flex;
     position: relative;
@@ -51,6 +52,14 @@ h1{
 .rwd-not-pc{
     display: none;
 }
+=======
+.gnav{
+    display: flex;
+    position: relative;
+    z-index: 100;
+}
+
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
 .reserved{
     position: absolute;
     top: 50%;
@@ -221,12 +230,15 @@ footer{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+<<<<<<< HEAD
 .time dd,.follow dd, .share-ftr dd{
     font-size: 1em;
 }
 .sitemap li{
     padding: 0.5em 0;
 }
+=======
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
 .m-row dt{
     margin-right: 1em;
 }
@@ -255,6 +267,7 @@ footer .copyright{
 
 /* PC型 768px~1024px */
 @media screen and (min-width: 768px) and (max-width: 1024px){
+<<<<<<< HEAD
     
     /* humbergermenu */
     .rwd-not-pc{
@@ -292,12 +305,16 @@ footer .copyright{
     .reserved-btn-inner a.btn{
         margin-top: 2.5em;
     }
+=======
+
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
 
 }
 
 /* タブレット型 479px~767px*/
 @media screen and (min-width: 479px) and (max-width: 767px){
 
+<<<<<<< HEAD
     /* humbergermenu */
     ul.navbar-low, .rwd-not-pc{
         display: block;
@@ -414,11 +431,14 @@ footer .copyright{
     .ftr_inner .site-info_ttl:after{
         display: none;
     }
+=======
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
 }
 
 /* スマホ mobile型 ~478px*/
 @media screen and (max-width: 478px){
 
+<<<<<<< HEAD
     /* humbergermenu */
     ul.navbar-low, .rwd-not-pc{
         display: block;
@@ -554,4 +574,6 @@ footer .copyright{
 
 
 
+=======
+>>>>>>> fb630fd9c8b8b2a9b08a649d570df23b8e688c58
 }
